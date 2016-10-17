@@ -303,9 +303,9 @@
 				 
 			$mail->Port = 587; // or 587 465- for gmail
 			$mail->IsHTML(true);
-			$mail->Username = "do-not-reply@tuntuni.tk";
-			$mail->Password = "Nopassword01";
-			$mail->SetFrom("do-not-reply@tuntuni.tk");
+			$mail->Username = "koushikjay66@outlook.com";
+			$mail->Password = "";
+			$mail->SetFrom("koushikjay66@outlook.com");
 			$mail->Subject = $sub;
 			$mail->Body =$msg;
 			$mail->AddAddress($to);
