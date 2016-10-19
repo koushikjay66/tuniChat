@@ -1,6 +1,6 @@
 <?php 
 	//require_once("config.php");
-	defined("DB_HOST") ? null: define("DB_HOST", "52.165.29.136");
+	defined("DB_HOST") ? null: define("DB_HOST", "tuntuni.cloudapp.net");
 	defined("DB_USER") ? null: define("DB_USER", "root");
 	defined("DB_PASS") ? null: define("DB_PASS", "Nopassword01");
 	defined("DB_NAME") ? null: define("DB_NAME", "CHATME");
