@@ -1,6 +1,6 @@
 <?php 
-	require_once("../includes/database.php");
-	require_once("../includes/users.php");
+	require_once("includes/database.php");
+	require_once("includes/users.php");
 
 	$msg="";
  	if (isset($_POST["submitLogIn"])) {

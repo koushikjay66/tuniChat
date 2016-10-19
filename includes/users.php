@@ -48,7 +48,7 @@
 		private function give_me_hash($password){
 
 			$hash_format="$2y$11$";
-			$salt="amarektanodiacheNirjon";
+			$salt="amarektanodiache";
 
 			$format_salt=$hash_format.$salt;
 

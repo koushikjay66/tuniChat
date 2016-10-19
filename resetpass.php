@@ -1,7 +1,7 @@
 <?php 
-	require_once("../includes/database.php");
-	require_once("../includes/users.php");
-	require_once("../includes/class.phpmailer.php");
+	require_once("includes/database.php");
+	require_once("includes/users.php");
+	require_once("includes/class.phpmailer.php");
 	$msg="Enter your Email Address";
 	session_start();
  ?>

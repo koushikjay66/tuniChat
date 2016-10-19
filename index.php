@@ -1,9 +1,9 @@
 <?php 
     session_start();
    // $_SESSION["id"]="kala";
-    require_once("../includes/config.php");
-    require_once("../includes/database.php");
-    require_once("../includes/users.php");
+    require_once("includes/config.php");
+    require_once("includes/database.php");
+    require_once("includes/users.php");
     if (!isset($_SESSION["id"])) {
         header("Location:login.php");
     }
